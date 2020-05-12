@@ -23,9 +23,9 @@ def reverse_array(array)
 end  
 
 def kesha_maker(array)
- array.collect do |x| 
-  x.sub(x.chars[2], "$")
- end
+  array.collect do |x| 
+    x.sub(x.chars[2], "$")
+  end
 end  
   
 def find_a(array)
@@ -47,7 +47,7 @@ def add_s(array)
   array.each do |x| 
     if !x.end_with?("t")
      x << "s" 
-  end
+    end
   end
 end
 
